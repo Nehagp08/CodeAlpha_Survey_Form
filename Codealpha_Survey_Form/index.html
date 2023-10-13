@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+
+	<title>Codealpha_Survey_Form</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+	<h1>Survey Form in CodeAlpha</h1>
+
+	<!-- --------------------Create Form--------------- -->
+	<form id="form">
+        <div class="form-control">
+		<label for="name" id="label-first-name">First Name</label>
+        <input type="text"id="first-name"placeholder="Enter your First Name"/></div>
+
+	    <div class="form-control">
+		<label for="last-name" id="label-last-name">Last Name</label>
+        <input type="text"id="last-name"placeholder="Enter your last Name"/></div>
+
+        <div class="form-control">
+        <label for="email" id="label-email">Email</label>
+        <input type="email"id="email"placeholder="Enter your Email"/></div>
+
+		<div class="form-control">
+        <label for="age" id="label-age">Age</label>
+        <input type="Number"id="age"placeholder="Enter your Age"/></div>
+
+		<div class="form-control">
+		<label for="Address" id="label-address">Address</label>
+		<input type="text"id="Address"placeholder="Enter your Address"/></div>
+
+		<div class="form-control">
+		<label for="Mobile No" id="label-Mobile-No">Mobile No</label>
+		<input type="Number"id="Mobile-No"placeholder="Enter your Mobile No"/></div>
+
+		<div class="form-control">
+		<label for="role" id="label-role">Which option best describes you?</label>
+			
+		<select name="role" id="role">
+		<option value="student">Student</option>
+		<option value="intern">Intern</option>
+		<option value="professional">Professional</option>
+        <option value="other">Other</option>
+		</select>
+		</div>
+
+		<div class="form-control">
+		<label for="role" id="label-role">Which of our Services are you interested in?</label>
+
+		<select name="role" id="role">
+		<option value="student">Mobile App Development</option>
+		<option value="intern">Web Development</option>
+		<option value="professional">UI & UX</option>
+		<option value="other">Full Stack Development</option>
+		</select>
+		</div>
+
+      <div class="form-control">
+      <label>How did you hear about us?</label>
+      <label for="recommed-1"><input type="radio"id="recommed-1"name="recommed">Linkdin</input></label>
+      <label for="recommed-2"><input type="radio"id="recommed-2"name="recommed">WhatsApp</input></label>
+      <label for="recommed-3"><input type="radio"id="recommed-3"name="recommed">Social Media</input></label>
+	  <label for="recommed-3"><input type="radio"id="recommed-3"name="recommed">Instragram</input></label>
+      </div>
+
+	 <button type="submit" value="submit">Submit</button>
+	</form>
+</body>
+</html>
